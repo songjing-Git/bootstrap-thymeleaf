@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>OA系统登录</title>
+    <link rel="icon" type="image/x-icon" href="../../static/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../static/css/login.css" >
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script type="text/javascript"  src="/webjars/jquery/3.5.1/jquery.js"></script>
+    <script type="text/javascript"  src="/webjars/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body id="body">
+<div id="form">
+    <h1 class="col-12 text-center" >OA办公自动化管理系统</h1>
+    <form class="form-horizontal" action="/login" method="post">
+        <div class="form-group">
+            <label for="username" class="col-sm-4" style="font-size: 18px;" >Username</label>
+            <div class="col-10">
+                <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-4" style="font-size: 18px;">Password</label>
+            <div class="col-10">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class=" col-6">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-1">
+                <button type="submit" class="btn btn-lg  btn-success ">Sign in</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

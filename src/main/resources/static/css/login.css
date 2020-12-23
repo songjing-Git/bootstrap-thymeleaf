@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-size: cover;
+    box-sizing: border-box;
+    z-index: 1;
+}
+#form{
+    border: solid 1px red;
+    border-radius: 15px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 40%;
+    height: 50%;
+}
+#title{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+form{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    width: 70%;
+    height: 50%;
+}
